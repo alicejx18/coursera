@@ -23,16 +23,13 @@
 // xxxx.xxxx = byeSpeaker;
 
 (function (window){
+    var byeSpeaker = {};
+    var speakWord = "Good Bye";
     
-   var byeSpeaker = {};
-   var speakWord = "Good Bye";
-    
-   byeSpeaker.speak = function (names) {
-     console.log(speakWord + " " + names);
-   }
+    byeSpeaker.speak = function (names) {
+      console.log(speakWord + " " + names);
+    }
      
-    window.byeSpeaker = byeSpeaker;
-   
-  })(window);
-
+     window.byeSpeaker = byeSpeaker;
+    })(window);
   
